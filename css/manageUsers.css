@@ -1,0 +1,36 @@
+/* Styling for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+body{
+  background-color: #C8AE7D;
+}
+th {
+  background-color: #102C57;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F0E5;
+}
+
+tr:nth-child(odd) {
+  background-color: #EADBC8;
+}
+
+td a {
+  color: #765827;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
